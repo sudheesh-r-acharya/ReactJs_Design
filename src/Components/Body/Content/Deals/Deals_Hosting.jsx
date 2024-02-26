@@ -3,7 +3,7 @@ import React from 'react'
 const Deals_Hosting = () => {
   return (
     <div>
-      <div className="deal-content">
+      
         <div className="deal-card">
           <img src="Images\Hosting image.png" alt="" />
           <div className="deal-offer">
@@ -19,7 +19,7 @@ const Deals_Hosting = () => {
           </div>
           <button><h4>View Deal</h4></button>
         </div>
-      </div>
+     
     </div>
   )
 }

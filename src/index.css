@@ -69,12 +69,14 @@ html, body {
   position: absolute;
   top: 89px;
   background-color: #FBFCFD;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 .Content .Content-H {
   width: 1024px;
   height: 155px;
   position: absolute;
-  left: 340px;
+  margin-left: 330px;
 }
 .Content .Content-H h1 {
   color: #2C384A;
@@ -632,7 +634,7 @@ html, body {
   color: #2C384A;
 }
 .Content .deal-hosting {
-  position: relative;
+  position: absolute;
   width: 65rem;
   height: 425px;
   top: 1740px;
