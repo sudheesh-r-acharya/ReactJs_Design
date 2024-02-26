@@ -1,0 +1,889 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-bg {
+  width: 100%;
+  height: 2900px;
+  background-color: #FBFCFD;
+}
+
+.navbar {
+  height: 64px;
+  width: 100%;
+  background-color: #212731;
+  color: #D1D6DA;
+  justify-content: space-evenly;
+  padding: 0 20rem;
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  font-weight: 100;
+  color: #D1D6DA;
+  text-decoration: none;
+}
+.navbar .Search-box {
+  width: 258px;
+  height: 37px;
+  top: 14px;
+  left: 480px;
+  border-radius: 8px;
+  border: 1px;
+  color: black;
+  background-color: #ffffff;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.navbar input {
+  border: none;
+  height: 25px;
+  width: 80%;
+  margin-right: 10px;
+  outline: none;
+}
+.navbar .icon {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin: 0 10px;
+}
+.navbar .Nav-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.Content {
+  width: 100%;
+  height: 2347px;
+  position: absolute;
+  top: 89px;
+  background-color: #FBFCFD;
+}
+.Content .Content-H {
+  width: 1024px;
+  height: 155px;
+  position: absolute;
+  left: 340px;
+}
+.Content .Content-H h1 {
+  color: #2C384A;
+  font-weight: 500;
+  font-size: 3rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+.Content .Content-H .line {
+  width: 100%;
+  height: 1.33px;
+  position: absolute;
+  background-color: #E1E4E6;
+  z-index: 99;
+  margin-top: 0.3rem;
+}
+.Content .Content-bt {
+  color: #4B5665;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-bottom: 0.7rem;
+  padding-top: 1.3rem;
+}
+.Content .Content-bt .Content-bt-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+}
+.Content .Content-bt .Content-bt-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Content .Content-bt h4 {
+  padding: 0.2rem;
+  font-weight: 500;
+}
+.Content .Content-bt #info {
+  margin-left: 1rem;
+}
+.Content .btn-bar-1 {
+  position: absolute;
+  left: 350px;
+  top: 170px;
+  width: 46vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content .btn-bar-1 h5 {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0.1rem 1.5rem;
+}
+.Content .btn-bar-2 {
+  position: absolute;
+  left: 355px;
+  top: 210px;
+  width: 26vw;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.Content .btn-bar-2 h6 {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0.4rem 0.2rem;
+}
+.Content .Hostings {
+  position: absolute;
+  width: 1024px;
+  height: 255px;
+  top: 280px;
+  left: 340px;
+  border-radius: 12px;
+  z-index: 99;
+  border: 2px solid rgba(150, 150, 150, 0.033);
+  background-color: #FFFFFF;
+}
+.Content .Hostings .number {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 2rem;
+  left: -1.4rem;
+  border-radius: 50%;
+  border-color: #E1E4E6;
+  color: #626E79;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.Content .Hostings .number h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 17px;
+}
+.Content .Hostings .number .n2 {
+  position: absolute;
+  top: 38vh;
+  border-radius: 50%;
+  border-color: #E1E4E6;
+  color: #626E79;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.Content .Hostings .number .n3 {
+  position: absolute;
+  top: 70vh;
+  border-radius: 50%;
+  border-color: #E1E4E6;
+  color: #626E79;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.Content .Hostings .number .n4 {
+  position: absolute;
+  top: 108vh;
+  border-radius: 50%;
+  border-color: #E1E4E6;
+  color: #626E79;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.Content .Hostings .lable {
+  display: flex;
+  align-items: center;
+  background-color: #FF7724;
+  gap: 0.5rem;
+  width: 8rem;
+  height: 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  top: -1rem;
+  padding: 2px 8px;
+}
+.Content .Hostings .lable h5 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.Content .Hostings .lable .GoTrophy {
+  height: 20px;
+  width: 20px;
+}
+.Content .Hostings .lable-2 {
+  display: flex;
+  align-items: center;
+  background-color: #FF7724;
+  gap: 0.5rem;
+  width: 8rem;
+  height: 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  top: 18.3rem;
+  padding: 2px 8px;
+}
+.Content .Hostings .lable-2 h5 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.Content .Hostings .lable-2 .IoDiamondOutline {
+  height: 20px;
+  width: 20px;
+}
+.Content .Hostings .Host-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 11rem;
+}
+.Content .Hostings .Host-content .img-area {
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+.Content .Hostings .Host-content .img-area img {
+  position: absolute;
+  width: 141px;
+  height: 103px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Content .Hostings .Host-content .img-heading {
+  position: absolute;
+  width: 68px;
+  height: 20px;
+  top: 11.4rem;
+  left: 4.2rem;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #626E79;
+}
+.Content .Hostings .Host-content .details {
+  height: 100%;
+  width: 60%;
+  padding: 1rem 0;
+  position: relative;
+}
+.Content .Hostings .Host-content .details span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Content .Hostings .Host-content .details p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4B5665;
+}
+.Content .Hostings .Host-content .details h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.3rem 0;
+  color: #2C384A;
+}
+.Content .Hostings .Host-content .details #Con-para-2 {
+  position: absolute;
+  width: 483px;
+  height: 72px;
+  top: 15vh;
+  left: 43px;
+}
+.Content .Hostings .Host-content .details .showmore {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  top: 25vh;
+  color: #1B88F4;
+}
+.Content .Hostings .Host-content .details .showmore h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 0.2rem;
+}
+.Content .Hostings .Host-content .review {
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+.Content .Hostings .Host-content .review .review-box {
+  width: 135px;
+  height: 118px;
+  top: -8vh;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #F3F9FF;
+  color: #074786;
+  position: absolute;
+  text-align: center;
+}
+.Content .Hostings .Host-content .review .review-box #info {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 20px;
+  color: #4B5665;
+}
+.Content .Hostings .Host-content .review .review-box h4 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+}
+.Content .Hostings .Host-content .review .review-box h3 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin: 0.3rem 0;
+}
+.Content .Hostings .Host-content .review .review-box .star {
+  color: #FFB80F;
+  font-size: 0.8rem;
+}
+.Content .Hostings .Host-content .review button {
+  position: absolute;
+  background-color: #1B88F4;
+  width: 232px;
+  height: 48px;
+  top: 15vh;
+  left: -5vh;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  transition: all 0.2s ease;
+}
+.Content .Hostings .Host-content .review button h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.Content .Hostings .Host-content .review button:hover, .Content .Hostings .Host-content .review button :active {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.Content .Hostings .hosting_card_4 {
+  width: 1024px;
+  height: 436px;
+  top: 1211px;
+  left: 292px;
+  border-radius: 12px;
+  border: 2px solid rgba(150, 150, 150, 0.033);
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .img-area-c4 {
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .img-area-c4 img {
+  position: absolute;
+  width: 141px;
+  height: 103px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .img-area-c4 .img-heading-c4 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  color: #626E79;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .details-c4 {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  padding: 1rem 0;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .details-c4 .offer h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #074786;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  border-radius: 4px;
+  background-color: #F2F4F7;
+  width: 4rem;
+  padding: 0.3rem 0.3rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .details-c4 span {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .details-c4 p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4B5665;
+  width: 90%;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .details-c4 h3 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.3rem 0;
+  color: #2C384A;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .middle-rating-c4 {
+  width: 505px;
+  height: 116px;
+  top: 1351px;
+  left: 539px;
+  border-radius: 12px;
+  background: #FFF4ED;
+  padding: 1rem 1rem;
+  margin: 0 2rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .middle-rating-c4 h5 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4B5665;
+  margin-bottom: 0.3rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .middle-rating-c4 h5 span {
+  width: 40px;
+  height: 28px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  padding: 0.2rem 0.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1B88F4;
+  margin-right: 1rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .check-box-c4 {
+  height: 8rem;
+  width: 13rem;
+  margin: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
+  position: relative;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .check-box-c4 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #4B5665;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .check-box-c4 .FaCheckCircle {
+  color: #1B88F4;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .check-box-c4 .cb {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .showmore-c4 {
+  display: flex;
+  align-items: center;
+  width: 95px;
+  height: 24px;
+  top: 25vh;
+  color: #1B88F4;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .showmore-c4 h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 0.2rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 {
+  height: 100%;
+  width: 20%;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 .review-box-c4 {
+  width: 135px;
+  height: 118px;
+  top: 0;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #F3F9FF;
+  color: #074786;
+  position: absolute;
+  text-align: center;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 .review-box-c4 #info-c4 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 20px;
+  color: #4B5665;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 .review-box-c4 h4 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 .review-box-c4 h3 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin: 0.3rem 0;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 .review-box-c4 .star-c4 {
+  color: #FFB80F;
+  font-size: 0.8rem;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 button {
+  position: absolute;
+  background-color: #1B88F4;
+  width: 232px;
+  height: 48px;
+  border: none;
+  bottom: 1rem;
+  right: 0.9rem;
+  border-radius: 12px;
+  color: white;
+  transition: all 0.2s ease;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 button h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 button:hover, .Content .Hostings .hosting_card_4 .hosting_c4_content .review-c4 button :active {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.Content .deal-header {
+  position: absolute;
+  width: 495px;
+  height: 44px;
+  top: 1670px;
+  left: 330px;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2C384A;
+}
+.Content .deal-hosting {
+  position: relative;
+  width: 65rem;
+  height: 425px;
+  top: 1740px;
+  left: 330px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content .deal-hosting .deal-card {
+  width: 333px;
+  height: 425px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 2px solid rgba(150, 150, 150, 0.064);
+  padding: 0 1rem;
+}
+.Content .deal-hosting .deal-card img {
+  width: 141px;
+  height: 103px;
+  position: absolute;
+  top: 10%;
+  margin-left: 4rem;
+}
+.Content .deal-hosting .deal-card .deal-offer {
+  position: absolute;
+  top: 23vh;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Content .deal-hosting .deal-card .deal-offer h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #074786;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  border-radius: 4px;
+  background-color: #F2F4F7;
+  width: 4rem;
+  padding: 0.3rem 0.3rem;
+}
+.Content .deal-hosting .deal-card .deal-offer #limit {
+  width: 6rem;
+}
+.Content .deal-hosting .deal-card h3 {
+  position: absolute;
+  top: 28.5vh;
+  margin-left: 4.5vw;
+  width: 107px;
+  height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #626E79;
+}
+.Content .deal-hosting .deal-card p {
+  position: absolute;
+  width: 284px;
+  height: 48px;
+  top: 17.5rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #626E79;
+}
+.Content .deal-hosting .deal-card .deal-price {
+  position: absolute;
+  top: 20.7rem;
+  display: flex;
+  align-items: center;
+}
+.Content .deal-hosting .deal-card .deal-price h2 {
+  width: 71px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5C6874;
+}
+.Content .deal-hosting .deal-card .deal-price h5 {
+  width: 48px;
+  height: 20px;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9FA9B3;
+}
+.Content .deal-hosting .deal-card .deal-price h6 {
+  width: 63px;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #EF4C5D;
+}
+.Content .deal-hosting .deal-card button {
+  position: absolute;
+  background-color: #1B88F4;
+  width: 295px;
+  height: 48px;
+  border: none;
+  bottom: 0.6rem;
+  border-radius: 12px;
+  color: white;
+  transition: all 0.2s ease;
+}
+.Content .deal-hosting .deal-card button h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.Content .deal-hosting .deal-card button:hover, .Content .deal-hosting .deal-card button :active {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.Content .deal-signUp {
+  position: absolute;
+  width: 1024px;
+  height: 140px;
+  top: 2200px;
+  left: 335px;
+  border: 2px solid rgba(150, 150, 150, 0.067);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FBFCFD;
+  border-radius: 1rem;
+  padding: 0 2rem;
+}
+.Content .deal-signUp h2 {
+  width: 398px;
+  height: 88px;
+  top: 2301px;
+  left: 338px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5C6874;
+}
+.Content .deal-signUp span input {
+  width: 348px;
+  height: 52px;
+  border-radius: 12px 0px 0px 12px;
+  background-color: #FFFFFF;
+  border: 2px solid rgba(150, 150, 150, 0.079);
+  padding: 0 2rem;
+}
+.Content .deal-signUp span button {
+  width: 97px;
+  height: 52px;
+  border-radius: 0px 12px 12px 0px;
+  background-color: #1B88F4;
+  border: none;
+  transition: all 0.2s ease;
+}
+.Content .deal-signUp span button h5 {
+  width: 57px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6999999881px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 1rem;
+}
+.Content .deal-signUp span button:hover, .Content .deal-signUp span button :active {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.Footer {
+  width: 100%;
+  height: 452px;
+  top: 2432px;
+  position: absolute;
+  background-color: #212731;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 3rem;
+}
+.Footer .categories {
+  height: 20vh;
+  width: 10vw;
+}
+.Footer .categories h2 {
+  width: 102px;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.Footer .categories h4 {
+  width: 124px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B6BDC4;
+}
+.Footer .contact {
+  height: 20vh;
+  width: 10vw;
+}
+.Footer .contact h2 {
+  width: 102px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.Footer .contact h4 {
+  width: 124px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B6BDC4;
+  padding-bottom: 1vh;
+}
+.Footer .footer-country {
+  height: 5vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #D1D6DA;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=index.css.map */
